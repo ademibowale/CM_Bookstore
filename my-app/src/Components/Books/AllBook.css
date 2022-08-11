@@ -2,19 +2,19 @@ body {
   background-color: #f5f6f7;
 }
 
-.form_container {
+.form-container {
   width: 92%;
   padding-right: 15px;
   margin: auto;
 }
 
-.separator_line {
+.separator-line {
   margin-top: 20px;
   color: #f2efef;
 }
 
-.form_container h2 {
-  margin: 40px 0 20px 0;
+.form-container h2 {
+  margin: 40px 0 20px;
   font-size: 2rem;
   color: #828282;
 }
@@ -29,31 +29,31 @@ body {
   border-radius: 5px;
 }
 
-.form .bookTitle {
+.form .book-title {
   width: 30%;
   margin: 0;
 }
 
-.authorName {
+.author-name {
   width: 30%;
 }
 
-.selectOption {
+.select-option {
   width: 23%;
   color: #868686;
 }
 
-.addBtn {
+.add-btn {
   width: 12%;
   background-color: #0290ff;
   color: #fff;
   cursor: pointer;
 }
 
-.form .bookTitle,
-.authorName,
-.selectOption,
-.addBtn {
+.form .book-title,
+.author-name,
+.select-option,
+.add-btn {
   outline: none;
   border: 1px solid #e1e0e0;
   padding: 10px;

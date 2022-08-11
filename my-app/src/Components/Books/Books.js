@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-// import Book from './Book';
 import AddBook from './AllBook';
 import Header from '../Navigation/Header';
 import { getBooks } from '../../redux/books/books';
@@ -11,14 +10,13 @@ export default function Books() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getBooks());
-  }, []);
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
   return (
     <>
       <Header />
-      <div className="books_container">
+      <div className="books-container">
         {books.map((book) => (
-          // <Book key={book.item_id} book={book} />
-          <div key={book.title}>
+            <div key={book.title}>
             <div>{book.author}</div>
             <div>{book.title}</div>
             <div>{book.category}</div>

@@ -2,18 +2,17 @@
   width: 100%;
   height: 70px;
   margin-bottom: 20px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ccc;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255);
   z-index: 99999;
 }
 
-.nav-Container {
+.nav-container {
   width: 40%;
   display: flex;
   justify-content: space-between;
@@ -21,8 +20,8 @@
   padding: 0 50px;
 }
 
-.nav-Container h1 {
-  color: rgb(65, 135, 255);
+.nav-container h1 {
+  color: rgb(65 135 255);
   font-size: 1.5em;
   font-weight: bold;
   margin: 0;
@@ -49,5 +48,5 @@
 .profile {
   width: 60px;
   font-size: 1.5em;
-  color: rgb(65, 135, 255);
+  color: rgb(65 135 255);
 }

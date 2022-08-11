@@ -29,13 +29,13 @@ export default function AddBook() {
   };
 
   return (
-    <div className="form_container">
-      <hr className="separator_line" />
+    <div className="form-container">
+      <hr className="separator-line" />
       <h2>Add New Book</h2>
       <form onSubmit={handler} className="form">
-        <input type="text" className="bookTitle" placeholder="Book title" value={title} onChange={(event) => setTitle(event.target.value)} required />
-        <input type="text" className="authorName" placeholder="Author name" value={author} onChange={(event) => setAuthor(event.target.value)} required />
-        <select type="text" className="selectOption" onChange={(event) => setCategory(event.target.value)}>
+        <input type="text" className="book-title" placeholder="Book title" value={title} onChange={(event) => setTitle(event.target.value)} required />
+        <input type="text" className="author-name" placeholder="Author name" value={author} onChange={(event) => setAuthor(event.target.value)} required />
+        <select type="text" className="select-option" onChange={(event) => setCategory(event.target.value)}>
           <option value="category">Category</option>
           <option value="Action">Action</option>
           <option value="Adventure">Adventure</option>
@@ -50,7 +50,7 @@ export default function AddBook() {
           <option value="Science">Science</option>
           <option value="Poesie">Poesie</option>
         </select>
-        <button type="submit" className="addBtn" onClick={(event) => submitBookToStore(event)}>Add Book</button>
+        <button type="submit" className="add-btn" onClick={(event) => submitBookToStore(event)}>Add Book</button>
       </form>
     </div>
   );

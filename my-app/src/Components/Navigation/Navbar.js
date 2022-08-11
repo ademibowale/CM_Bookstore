@@ -10,7 +10,7 @@ function Navbar() {
   };
   return (
     <>
-      <nav className="nav-Container">
+      <nav className="nav-container">
         <h1 className="title">Bookstore CMS</h1>
         <ul className="items">
           <li>
