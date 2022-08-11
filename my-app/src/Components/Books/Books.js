@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-// import { useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import AddBook from './AllBook';
 import Header from '../Navigation/Header';
-// import { getBooks } from '../../redux/books/books';
+import { getBooks } from '../../redux/books/books';
 import './Books.css';
 
 export default function Books() {
