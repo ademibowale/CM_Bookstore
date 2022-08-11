@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import Book from './Book';
+// import Book from './Book';
 import AddBook from './AllBook';
 import Header from '../Navigation/Header';
 import { getBooks } from '../../redux/books/books';
@@ -17,7 +17,13 @@ export default function Books() {
       <Header />
       <div className="books_container">
         {books.map((book) => (
-          <Book key={book.item_id} book={book} />
+          // <Book key={book.item_id} book={book} />
+          <div key={book.title}>
+            <div>{book.author}</div>
+            <div>{book.title}</div>
+            <div>{book.category}</div>
+          <button type='button'>Remove</button>
+          </div>
         ))}
       </div>
       <AddBook />
