@@ -17,6 +17,18 @@
 - prop-types
 - Redux
 
+
+### Setup
+### ``` npm install ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
