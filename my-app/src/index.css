@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Slab:wght@300;400&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Slab:wght@300;400&display=swap";
 
 * {
   margin: 0;
@@ -25,7 +25,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
 }
@@ -101,7 +101,7 @@ h2 {
 .hr {
   width: 3px;
   height: 90px;
-  background-color: rgba(18, 18, 18, 0.5);
+  background-color: rgb(18 18 18 / 50%);
   opacity: 0.2;
 }
 
@@ -142,7 +142,7 @@ h2 {
 }
 
 .book-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #121212;
   opacity: 0.5;
   font-weight: 600;
@@ -181,7 +181,7 @@ h2 {
 }
 
 .book-progress {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   display: flex;
   align-items: center;
   gap: 0 20px;
@@ -193,7 +193,7 @@ h2 {
   border-radius: 50%;
   height: 5.2rem;
   width: 5.2rem;
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -231,11 +231,11 @@ h2 {
 
 .form hr {
   margin: 25px 0;
-  border: 1px solid rgba(18, 18, 18, 0.1);
+  border: 1px solid rgb(18 18 18 / 10%);
 }
 
 .form > h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   margin-bottom: 15px;
   opacity: 0.5;
 }
@@ -245,7 +245,7 @@ h2 {
   border-radius: 4px;
   width: 30%;
   border: 1px solid #ccc;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
 }
 
@@ -265,7 +265,7 @@ h2 {
   font-size: 18px;
   border: 1px solid #ccc;
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 /* category */
