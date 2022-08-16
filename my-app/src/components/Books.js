@@ -10,6 +10,7 @@ function Books() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchBook());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
