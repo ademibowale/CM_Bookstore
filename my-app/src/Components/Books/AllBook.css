@@ -1,0 +1,63 @@
+body {
+  background-color: #f5f6f7;
+}
+
+.form-container {
+  width: 92%;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.separator-line {
+  margin-top: 20px;
+  color: #f2efef;
+}
+
+.form-container h2 {
+  margin: 40px 0 20px;
+  font-size: 2rem;
+  color: #828282;
+}
+
+.form {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.form .book-title {
+  width: 30%;
+  margin: 0;
+}
+
+.author-name {
+  width: 30%;
+}
+
+.select-option {
+  width: 23%;
+  color: #868686;
+}
+
+.add-btn {
+  width: 12%;
+  background-color: #0290ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form .book-title,
+.author-name,
+.select-option,
+.add-btn {
+  outline: none;
+  border: 1px solid #e1e0e0;
+  padding: 10px;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
