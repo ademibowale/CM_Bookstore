@@ -1,0 +1,285 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Slab:wght@300;400&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f5f6fa;
+  padding: 5%;
+}
+
+#root {
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
+}
+
+/* navbar */
+nav {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Montserrat, sans-serif;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+nav > div {
+  display: flex;
+  gap: 0 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 0 40px;
+  align-items: center;
+}
+
+h1 a {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0290ff;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: #000;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+nav li a:visited {
+  opacity: 1;
+}
+
+#user {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#user svg {
+  color: #0290ff;
+  font-size: 23px;
+}
+
+#user svg:hover {
+  cursor: pointer;
+}
+
+main {
+  margin: auto;
+  padding: 40px;
+  background-color: #fafafa;
+}
+
+main > div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 23px;
+}
+
+.hr {
+  width: 3px;
+  height: 90px;
+  background-color: rgb(18 18 18 / 50%);
+  opacity: 0.2;
+}
+
+.book {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 18px;
+}
+
+.action-btn {
+  margin-top: 20px;
+  display: flex;
+}
+
+.action-btn button {
+  border: none;
+  border-right: 1px solid #4386bf;
+  color: #4386bf;
+  font-family: "Roboto Slab", serif;
+  background-color: #fff;
+  font-size: 15px;
+  padding: 0 20px;
+  font-weight: 300;
+}
+
+.action-btn button:first-child {
+  padding-left: 0;
+}
+
+.action-btn button:last-child {
+  border-right: none;
+}
+
+.book-title {
+  font-family: Montserrat, sans-serif;
+  color: #121212;
+  opacity: 0.5;
+  font-weight: 600;
+}
+
+.book-author {
+  font-family: "Roboto Slab", serif;
+  color: #4386bf;
+  font-weight: 300;
+}
+
+.book-chapter {
+  font-family: "Roboto Slab", serif;
+  color: #121212;
+  font-weight: 200;
+}
+
+.chapter-btn {
+  background-color: #0290ff;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 20px;
+  border: none;
+}
+
+.book-chapter > h4 {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.book-progress {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.progress {
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  border-radius: 50%;
+  height: 5.2rem;
+  width: 5.2rem;
+  transform: rotate(45deg);
+}
+
+.book-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 60px;
+  gap: 50px;
+}
+
+.book-progress p {
+  font-size: 36px;
+}
+
+.book-progress small {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.book-chapter button:hover,
+.action-btn button:hover {
+  cursor: pointer;
+}
+
+.action-btn button:hover {
+  color: red;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form hr {
+  margin: 25px 0;
+  border: 1px solid rgb(18 18 18 / 10%);
+}
+
+.form > h2 {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+#form input {
+  padding: 10px 15px;
+  border-radius: 4px;
+  width: 30%;
+  border: 1px solid #ccc;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+#form button {
+  background-color: #0290ff;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  padding: 10px 15px;
+  width: 20%;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#form select {
+  width: 20%;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: Montserrat, sans-serif;
+}
+
+/* category */
+.status {
+  width: 15%;
+  margin: 50px;
+  background-color: #0290ff;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.status:hover {
+  cursor: pointer;
+}
