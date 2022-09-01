@@ -65,6 +65,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 - GitHub: [@ademibowale](https://github.com/ademibowale)
 
+
+[LiveDemo](https://bookstore-cms-books.netlify.app)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
