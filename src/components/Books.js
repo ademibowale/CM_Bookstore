@@ -13,6 +13,7 @@ function Books() {
   }, []);
 
   return (
+    <>
     <main>
       <div>
         <section>
@@ -32,6 +33,7 @@ function Books() {
         </section>
       </div>
     </main>
+   </>
   );
 }
 
