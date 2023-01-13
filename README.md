@@ -7,6 +7,11 @@ A bookstore made using REACT as frontend technology.
     - See a filtered list of books by Categories.
     - See a list of all the available books.
 
+## Live Demo
+
+[Live demo](https://bookstore-cms-books.netlify.app/
+)
+
 ## Built With
 
 - HTML5
@@ -59,17 +64,20 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+
 ## Author
 
-👤 **ADEBOWALE ADEGBOYE**
+👤 **Ademibowale**
 
-- GitHub: [@ademibowale](https://github.com/ademibowale)
+- GitHub: [ademibowale](https://github.com/ademibowale)
+- Twitter: [@Ademibowale](https://twitter.com/Ademibowale1)
+- LinkedIn: [tech-adebowale-adegboye](https://www.linkedin.com/in/tech-adebowale-adegboye/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https:///issues).
 
 ## Show your support
 
@@ -77,10 +85,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
+
 This project is [MIT](./MIT.md) licensed.
+
